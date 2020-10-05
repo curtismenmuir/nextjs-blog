@@ -50,3 +50,8 @@
 .lightText {
   color: #999;
 }
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,4 +1,4 @@
-service: hiit-web
+service: hiit-web-ui
 runtime: nodejs12
 env: standard
 instance_class: F1

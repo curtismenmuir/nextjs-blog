@@ -12,11 +12,17 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <p>Hi, welcome to the HiiT Web Portal</p>
+        <Link href="/posts/first-post">
+          <a>Check out our First Blog Post</a>
+        </Link>
         <p>
-          Hi, I'm Curtis Menmuir and I am a Software Engineer from Dundee,
-          Scotland
+          {"Or "}
+          <Link href="/login">
+            <a>Login</a>
+          </Link>
+          {" here"}
         </p>
-        <Link href="/posts/first-post">Check out my First Post</Link>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)

@@ -11,10 +11,7 @@ export default function FirstPost() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <h1>First Post</h1>
-      <h3>
-        This is my first post on my new Website! Test 123, Test 123, Test 123,
-        Test 123, Test 123, Test 123;
-      </h3>
+      <h3>This is our very first blog post on our new Web portal!</h3>
       <h2>
         <Link href="/">
           <a>Back to home</a>
