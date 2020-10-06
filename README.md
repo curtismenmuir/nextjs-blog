@@ -32,9 +32,9 @@
 
 **Step 2:** Build project: `yarn build`
 
-**Step 3:** Start project: `yarn start -p 3030`
+**Step 3:** Start project: `yarn start -p 3000`
 
-**Step 4:** Navigating to: `http://localhost:3030`
+**Step 4:** Navigating to: `http://localhost:3000`
 
 ## :rotating_light: Unit Tests
 
@@ -46,7 +46,7 @@
 
 **Step 2:** Build project: `yarn build`
 
-- NOTE: Test build by running `yarn start -p 3030` and navigating to `http://localhost:3030`
+- NOTE: Test build by running `yarn start -p 3000` and navigating to `http://localhost:3000`
 
 **Step 3:** Ensure G-Cloud SDK pointing to desired project: `gcloud config get-value project`
 
